@@ -1,0 +1,27 @@
+﻿# Video Files (High Capacity)
+*.mov
+*.mp4
+*.m4v
+*.avi
+*.mkv
+*.wmv
+*.flv
+
+# Project Files (Binary)
+*.prproj
+*.aep
+*.psd
+*.ai
+
+# System & Temp Files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.bak
+*.log
+
+# CSV/Excel Data (If you want to exclude large raw data, uncomment below)
+# library_export.csv
+# *.xlsx
