@@ -1,4 +1,4 @@
-﻿# Video Files (High Capacity)
+# Video Files (High Capacity)
 *.mov
 *.mp4
 *.m4v
@@ -25,3 +25,10 @@ desktop.ini
 # CSV/Excel Data (If you want to exclude large raw data, uncomment below)
 # library_export.csv
 # *.xlsx
+
+# Python & Env
+__pycache__/
+*.pyc
+.env
+*.db
+*.sqlite3

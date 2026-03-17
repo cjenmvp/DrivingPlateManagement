@@ -9,19 +9,19 @@
 - 불필요하거나 중복된 데이터는 오직 **격리(Isolate/Move)** 처리만 허용합니다.
 - 삭제는 모든 작업 완료 후 사용자의 최종 검토 하에 이루어져야 합니다.
 
-## 📅 마지막 업데이트: 2026-03-16 (18:50 KST)
+## 📅 마지막 업데이트: 2026-03-17 (14:30 KST)
 
 ## 📍 현재 진행 단계 (Current Progress)
-- **단계**: [Phase 1: Pilot Test] ffprobe 메타데이터 추출 준비 단계
+- **단계**: [Phase 1: Pilot Test & Connect] Notion-MCP-DB 연동 및 폴더 구조화
 - **최신 완료 작업**: 
-  - `docs/12_영상_메타데이터_추출_및_DB_구축_상세_계획.md` 수립 및 승인 완료.
-  - `X:\00_DrivingPlate_Management_System` 폴더 구조화 및 GitHub 푸시 완료.
-  - 비선호 각도(01, 05, 07, 11) 마스터/프록시 드라이브 격리 완료.
+  - `X:\00_DrivingPlate_Management_System\docs` 내 모든 마크다운 매뉴얼 파일 7단계 운영 프레임워크에 맞춰 번호 정렬 및 최적화 완료 (`00`~`06` 포맷).
+  - Notion API 연결 및 MCP 서버 연동 검증 완료.
+  - `docs/06-1_Notion_MCP_Integration_Guide.md` 작성 및 아키텍처 수립 완료.
 
 ## 🏃 바로 다음에 수행할 작업 (Next Immediate Steps)
-1. **ffprobe 실행**: 10개 샘플 폴더에 대한 `ffprobe` 실행 및 결과 JSON 확보.
-2. **DB 설계**: 추출된 JSON을 기반으로 SQLite `library.db` 스키마 설계 및 생성 (Codex 연동).
-3. **데이터 매핑**: 비표준 폴더들의 정체를 메타데이터 분석을 통해 규명.
+1. **DB 설계 및 초기화**: `docs/01_Ontology.md` 기반 SQLite 스키마 설계 (`init_db.py`).
+2. **Notion -> DB 연동 스크립트 작성**: 에이전트가 뽑아낸 Notion 파싱 데이터를 DB에 `INSERT/UPDATE` 할 파이썬 스크립트 작성 (`update_db_from_notion.py`).
+3. **ffprobe 실행 (보류/대기 중)**: 폴더 메타데이터 추출을 위한 스크립트 작업 병행 (우선순위에 따라 진행).
 
 ## 🚧 해결해야 할 문제 (Blockers)
 - 없음. (ffprobe 테스트 실행 대기 중)
