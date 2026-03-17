@@ -11,10 +11,14 @@
             "id": "3bf8e6d43dfc1876",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/01_Ontology.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "01_Ontology"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/01_Ontology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "01_Ontology 의 백링크"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/01_Ontology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "01_Ontology 의 나가는 링크"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/01_Ontology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "01_Ontology 의 개요"
             }
           }
         ]
@@ -178,18 +185,19 @@
   },
   "active": "3bf8e6d43dfc1876",
   "lastOpenFiles": [
-    "docs/12_Notion_MCP_Integration_Guide.md",
+    "docs/02_Topology.md",
+    "docs/01_Ontology.md",
+    "docs/00_VP_Stage_통합_마스터플랜.md",
     "docs/06-1_Notion_MCP_Integration_Guide.md",
     "docs/06_Connect_CLI_MCP.md",
     "docs/04_SubAgents_AI_Orchestration.md",
-    "docs/02-1_전체_라이브러리_인벤토리.md",
     "docs/03-2_데이터_관리_및_업데이트_절차.md",
     "docs/03-1_표준_명명_규칙_및_운영_가이드.md",
     "docs/03_SOP_LangGraph.md",
+    "docs/02-1_전체_라이브러리_인벤토리.md",
+    "docs/12_Notion_MCP_Integration_Guide.md",
     "docs/11_AI_에이전트_오케스트레이션_전략.md",
     "docs/01_표준_명명_규칙_및_운영_가이드.md",
-    "docs/00_VP_Stage_통합_마스터플랜.md",
-    "docs/01_Ontology.md",
     "docs/06_Connect.md",
     "docs/00_Archive_Old_Plans/06_Connect.md",
     "12_Notion_MCP_Integration_Guide.md",
@@ -197,7 +205,6 @@
     "rnd_notion_api/requirements.txt",
     "rnd_notion_api/test_notion_api.py",
     "rnd_notion_api",
-    "docs/02_Topology.md",
     "docs/02_전체_라이브러리_인벤토리.md",
     "00_VP_Stage_통합_마스터플랜.md"
   ]

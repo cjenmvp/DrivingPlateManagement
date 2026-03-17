@@ -13,7 +13,7 @@
 | **Step 3** | **SOP (업무 매뉴얼)** | 입고, 분류, 인코딩, 관리 표준 절차 구축 | **완료** | `03_SOP_LangGraph.md`, `03-1_표준_명명_규칙...`, `03-2_데이터_관리_업데이트...` |
 | **Step 4** | **Sub-Agents** | 각 공정을 책임질 전문 디지털 직원 (AI 에이전트) 설계 | **완료** | `04_SubAgents_AI_Orchestration.md` |
 | **Step 5** | **Skills** | 에이전트의 무기 (FFmpeg, PowerShell 등) 정리 | 대기 | (추후 기능 스크립트 작성 시 문서화) |
-| **Step 6** | **Connect (CLI/MCP)** | Notion API 연동, DB 동기화 및 실시간 제어 설계 | **완료** | `06_Connect_CLI_MCP.md`, `06-1_Notion_MCP_Integration_Guide.md` |
+| **Step 6** | **Connect (CLI/MCP)** | Notion API 연동, 프론트엔드 UX 설계 및 제어권 부여 | **완료** | `06_...`, `06-1_...`, `06-2_Notion_Asset_Library_UX_Strategy.md` |
 | **Step 7** | **Result** | 효율성 극대화 및 창작 자유도 증진 | 대기 | 전체 시스템 연동 후 측정 |
 
 ---
