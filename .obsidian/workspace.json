@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_VP_Stage_통합_마스터플랜.md",
+                "file": "docs/02_Topology.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_VP_Stage_통합_마스터플랜"
+              "title": "02_Topology"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_VP_Stage_통합_마스터플랜.md",
+                "file": "docs/02_Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "00_VP_Stage_통합_마스터플랜 의 백링크"
+              "title": "02_Topology 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_VP_Stage_통합_마스터플랜.md",
+                "file": "docs/02_Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "00_VP_Stage_통합_마스터플랜 의 나가는 링크"
+              "title": "02_Topology 의 나가는 링크"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_VP_Stage_통합_마스터플랜.md",
+                "file": "docs/02_Topology.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "00_VP_Stage_통합_마스터플랜 의 개요"
+              "title": "02_Topology 의 개요"
             }
           }
         ]
@@ -184,5 +184,10 @@
     }
   },
   "active": "3bf8e6d43dfc1876",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "docs/02_전체_라이브러리_인벤토리.md",
+    "docs/01_Ontology.md",
+    "docs/01_표준_명명_규칙_및_운영_가이드.md",
+    "00_VP_Stage_통합_마스터플랜.md"
+  ]
 }
